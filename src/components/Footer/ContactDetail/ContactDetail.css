@@ -1,0 +1,89 @@
+.contactus_box {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffcdd6;
+    background-image: url("./../../../assets/frame2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 515px;
+  }
+  .contactus_title {
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+  
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 45px;
+    color: #640000;
+    word-spacing: 6px;
+    padding-top: 100px;
+    font-weight: 500;
+  }
+  .contactus_content {
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+    /* padding-right: 150px; */
+    /* padding-left: 100px; */
+    margin-left: 20px;
+  }
+  
+  .contactus_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contactus_text div {
+    display: inline-flex;
+  }
+  
+  .contactus_text div p {
+    margin-top: -10px;
+    font-size: 20px;
+  }
+  .contactus_text p {
+    padding: 20px;
+  }
+
+
+  .contactus_text li {
+    padding: 10px;
+  }
+  @media screen and (min-width: 320px){
+  .contactus_icons {
+      margin: auto;
+      width: 65%;
+  }
+}
+  .contactus_connect {
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 45px;
+    color: #640000;
+    word-spacing: 6px;
+    font-weight: 500;
+  }
+
+  .icon{
+    padding-bottom: 15px;
+  }
+
+
+  /* media  */
+  .contactus_icons {
+    flex-direction: column;
+    margin-left: 500px;
+  }
+  @media screen and (min-width: 780px) {
+    .contactus_icons {
+    margin: auto;
+    width: 90%;
+    }
+  }

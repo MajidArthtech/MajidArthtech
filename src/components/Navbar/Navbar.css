@@ -1,0 +1,97 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: #640000;
+  color: white;
+}
+.logo{
+  padding: 10px 10px 10px 10px;
+  font-size: 30px;
+
+}
+.nav-links{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  width: 75%;
+}
+
+.home,
+.services,
+.create,
+.write,
+.contest,
+.Library,
+.login{
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.login{
+  border: 1px solid white;
+  border-radius:  15px;
+  background-color: #640000;
+  color: white;
+}
+
+.mobile-menu-icon{
+  display: none;
+}
+@media screen and (max-width: 1166px){
+  .logo{
+      display: flex;
+      position: absolute;
+      top: 15px;
+      left: 35px;
+  }
+  .nav-links{
+      display: none;
+  }
+  .nav-links-mobile{
+      position: absolute;
+      display: block;
+      list-style-type: none;
+      background-color: #640000;
+      left: 0px;
+      top: 75px;
+      transition: all 05s ease-out;
+      width: 100%;
+  }
+  .home,
+.services,
+.create,
+.write,
+.contest,
+.Library,
+.login{
+  color: white;
+  text-align: center;
+  padding: 32px;
+  width: 100%;
+  transition: all 05s ease;
+}
+.login{
+  border: none;
+}
+.mobile-menu-icon{
+  display: block;
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  background-color: #640000;
+  border: none;
+  top: 15px;
+  right: 25px;
+}
+} 
