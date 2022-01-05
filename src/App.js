@@ -14,20 +14,18 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 //Footer 
 // import AboutUs from './components/Footer/AboutUs/About US';
 // import Business from './components/Footer/Busniness/Business';
-import AuthorBrand from "./components/AuthorBrand/AuthorBrand";
+// import AuthorBrand from "./components/AuthorBrand/AuthorBrand";
 // import ContactDetail from './components/Footer/ContactDetail/ContactDetail';
 // import ContentPolicy from "./components/Footer/ContentPolicy/ContentPolicy";
 // import WriterBenifit from "./components/Footer/WriterBenifit/WriterBenifit";
 
+
+
+import Login from "./components/LoginPage/Login";
 function App() {
   return (
     <div className="App">
-
-<AuthorBrand/>
-
-
-{/* <AuthorProject/> */}
-
+      <Login/>
     </div>
   );
 }
