@@ -13,6 +13,8 @@ import { FiSmartphone } from "react-icons/fi";
 const AuthorBrand = () => {
   return (
     <>
+
+    {/* Top part of the Page *********************************************************************************************************** */}
     <div className="writerrBrand">
       <div className="topPart">
         <div className="writerbrand_bg">
@@ -28,9 +30,9 @@ const AuthorBrand = () => {
         </div>
 
 
+        {/* ****************************************************************************************************************************** */}
 
-
-
+                                     {/* Middle part of the page */}  
 
         <div className="container">
         <div className="writerrBrand_one">
@@ -80,48 +82,16 @@ const AuthorBrand = () => {
           </div>
           </div>
         </div>
+        
+    {/* *********************************************************************************************************************************** */}
     
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      {/* </div>
+      
+      
+    <div className="container">
       <div className="middlePart">
-        <div className="container">
       <div className="writerrBrand_two">
         <div className="writerrBrand_two_content">
           <h1>2</h1>
@@ -145,6 +115,8 @@ const AuthorBrand = () => {
           <p> External exposure positions are mainly for fanfiction potential users or users to be recalled, through spreading 
           high-quality contents to reach such user and attract them to click the book links. </p></div>
       </div>
+
+
       <div className="writerrBrand_three">
         <div className="writerrBrand_three_content">
           <h1>3</h1>
@@ -155,23 +127,26 @@ const AuthorBrand = () => {
         </div>
       </div>
       </div>
+      </div>
 
+
+      
+{/* **********************************************Bottom Part ******************************************************************************** */}
       <div className="bottomPart">
         <div className="container">
       <div className="writerrBrand_img">
         <img src={Book} alt="Book" class="writerrBrand_img_book" />
         <div className="writerbrand_img_text ">
           <h1> Incentive Book Sharing </h1>
-          <p> Incentives such as free coins will encourage reader to share Fanfiction books with their frineds</p>
+          <p className="p-last"> Incentives such as free coins will encourage reader to share Fanfiction books with their frineds</p>
           <h1>Personalized Book Sharing</h1>
-          <p> Fanfiction will create personalized book share links for popular books, the contents of which include personalized 
+          <p className="p-last"> Fanfiction will create personalized book share links for popular books, the contents of which include personalized 
           excerpts with beautiful pictures,or video clips of novels highlights, so as tos stimulate readers desire to shaer these book
             links </p>
         </div>
       </div>
       </div>
       </div>
-      </div>  */}
     </div>
     </>
   );
