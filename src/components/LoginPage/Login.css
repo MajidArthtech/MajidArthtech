@@ -1,5 +1,5 @@
 
-
+/* *************************************************************************** */
 .container {
   margin-top: 10%;  
   background-image: url("./../../assets/frame3.png");
@@ -21,6 +21,7 @@
     font-size: 20px;
     color: black;
     margin-top: 18px;
+
 }
 input.register_modal_inputs {
     width: auto;
