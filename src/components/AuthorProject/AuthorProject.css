@@ -69,6 +69,7 @@
     border-width: 4px;
     background-color: lavender;
     border-radius: 30px;
+    width: 25%;
     margin: 20px;
     justify-content: center;
   }
@@ -135,6 +136,9 @@
   
     font-size: 90px;
   }
+
+
+
   .authorproject_manimage {
        width: 91%;
       height: 70%;
@@ -193,12 +197,8 @@
     height: 130px;
   }
   .authorproject_update {
-    width: 693px;
-    height: 319px;
-    padding-top: 30px;
-    padding-bottom: 160px;
-    align-items: flex-start;
-    padding-right: 257px;
+  margin-top: -30px;
+  width: 300px;
   }
   
   .authorproject_image_content {
@@ -218,15 +218,7 @@
   
     border-radius: 10px;
   }
-  
-  .authorproject_writer {
-    background-image: url("./../../assets/writer.png");
-    position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    background-repeat: no-repeat;
-  }
+
   .authorproject_writer_main h1 {
     background-color: rgb(223, 219, 219);
     color: black;
@@ -431,33 +423,34 @@
     border-width: 4px;
     border-radius: 30px;
     margin: 20px;
+    width: 25%;
     justify-content: center;
   }
   .authorproject_grid1 h3 {
     background-color: brown;
     color: white;
-    width: 120px;
+    width: 185px;
     text-align: center;
     border-radius: 40px;
   }
   .authorproject_grid2 h3 {
     background-color: brown;
     color: white;
-    width: 120px;
+    width: 185px;
     text-align: center;
     border-radius: 40px;
   }
   .authorproject_grid3 h3 {
     background-color: brown;
     color: white;
-    width: 120px;
+    width: 185px;
     text-align: center;
     border-radius: 40px;
   }
   .authorproject_grid4 h3 {
     background-color: brown;
     color: white;
-    width: 120px;
+    width: 185px;
     text-align: center;
     border-radius: 40px;
   }
@@ -582,19 +575,18 @@
   }
   
   .authorproject_writer {
+    float: left;
+    width: 100%;
     background-image: url("./../../assets/writer.png");
-    position: relative;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
     background-repeat: no-repeat;
-  }
+    height: 90vh;
+    background-size: contain;
+}
   .authorproject_writer_main h1 {
     background-color: rgb(223, 219, 219);
     color: black;
     width: 100%;
-  
-    height: 48px;
+    height: 40px;
     font-style: italic;
     font-size: 30px;
     text-align: center;
@@ -613,11 +605,6 @@
     margin-top: 50px;
   
     border-radius: 10px;
-  }
-  .authorproject_writing h1 {
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
   }
   .authorproject_writing p {
     text-align: center;
@@ -849,6 +836,7 @@
     .authorproject_midbg {
       background-color: rgb(204, 115, 115);
       height: 63%;
+      margin-bottom: 50px;
       width: 100%;
       position: relative;
       display: flex;
@@ -865,9 +853,8 @@
       text-decoration: overline;
     }
     .authorproject_program_text h1 {
-      font-size: 20px;
-  
-      margin-left: 35px;
+      font-size: 25px;
+      margin-left: 3px;
     }
     .authorproject_image {
       flex-direction: column;
@@ -888,11 +875,8 @@
       height: 181px;
       width: 125px;
       float: right;
-  
-      shape-margin: 5px;
-      margin-top: 135px;
-      margin-right: 57px;
-      margin-left: 4px;
+      margin-top: 453px;
+      margin-right: 194px;
     }
     .authorproject_image_content {
       text-align: start;
@@ -1035,7 +1019,7 @@
       font-style: italic;
       font-size: 19px;
       text-align: center;
-      margin-top: 26%;
+      margin-top: 17%;
       border-radius: 10px;
     }
   }
@@ -1045,8 +1029,13 @@
       height: 30px;
       font-size: 19px;
     }
+
+
+.authorproject_midbg_text h1 {
+  font-size: 26px;
+}
     .authorproject_manimage {
-      width: 47vh;
+      width: 34vh;
       height: 55vh;
       margin-left: 13%;
       margin-top: 23px;
@@ -1081,18 +1070,48 @@
     }
   }
   .container {
-    margin-bottom: 21px;
+    margin-bottom: 34px;
+    margin-top: 50px;
 }
 
+.div-1{
+    width: 90%;
+    font-size: 15px;
+}
   .div-2 {
-    margin-top: -102px;
-    margin-left: 166px;
+    margin-top: 47px;
+    margin-left: -29px;
 }
 h3.read-more {
     background-color: #640000;
     color: white;
-    width: 146px;
-    padding: 7px;
+    width: 132px;
+    padding: 10px;
+    font-size: 22px;
     border-radius: 22px;
 }
+@media (max-width-425) {
 
+    .div-1{
+        width: 100%;
+        font-size: 15px;
+    }
+    .div-2{
+        margin-top: 47px;
+        margin-left: -29px;
+    }
+
+    .authorproject_update {
+        margin-top: 108px;
+        width: 350px;
+    }
+}
+.read-2,
+.read-3{
+    margin-top: 42px;
+}
+.read-1,
+.read-4
+{
+    margin-top: 90px;
+}

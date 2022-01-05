@@ -23,7 +23,7 @@
     background-color: #83729a;
     background-size: cover;
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 70vh;
     border-radius: 0 0 65% 65%;
     display: flex;
@@ -32,7 +32,11 @@
     align-items: center;
     z-index: -1;
   }
-
+  @media(min-width: 768){
+    .container{
+      max-width: 770px;;
+    }
+  }
   .writerbrand_main {
     position: relative;
     z-index: 1;
@@ -59,9 +63,22 @@
     text-align: center;
     margin-left: 130px;
     justify-content: flex-end;
-  
     font-weight: 600;
   }
+  p.para{
+    font-size: 22px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
   .writerrBrand_one {
     display: flex;
     flex-direction: column;
@@ -124,18 +141,14 @@
     flex-direction: center;
     text-align: left;
   
-    font-size: 15px;
+    font-size: 28px;
     font-weight: 500;
-    /* margin-left: 240px; */
   }
   .writerrBrand_one_icons_text p {
     display: flex;
     flex-direction: center;
     text-align: left;
-  
-    font-size: 15px;
-  
-    /* margin-left: 240px; */
+    font-size: 22px;
   }
   .BiMessageSquareDots {
     width: 20px;
@@ -292,6 +305,10 @@
       align-items: center;
       z-index: -1;
     }
+
+    .writerrBrand_one_icons_text p{
+      font-size: 22px;
+    }
     .writerbrand_main h2 {
       font-size: 19px;
       color: black;
@@ -349,11 +366,11 @@
     }
     .writerrBrand_one_content p {
       justify-content: flex-start;
-      text-align: center;
+      text-align: left;
       margin-left: 37px;
-      margin-right: 24px;
+      margin-right: 28px;
       margin-bottom: 0px;
-      font-size: 14px;
+      font-size: 22px;
     }
     .writerrBrand_one_icons {
       display: flex;
@@ -365,9 +382,7 @@
       margin-bottom: 17px;
     }
     .writerrBrand_one_icons_first {
-      margin-top: 8px;
-      margin-bottom: 5px;
-      margin-left: 240px;
+      margin-left: 237px;
   }
     .writerrBrand_two_content h1 {
       font-size: 105px;
@@ -454,7 +469,7 @@
       display: flex;
       flex-direction: center;
       text-align: left;
-      font-size: 15px;
+      font-size: 22px;
       margin-left: 240px;
   }
   }
@@ -507,8 +522,9 @@
       right: -14px;
     }
     .writerrBrand_one_icons_first {
-      margin-top: 0px;
-      margin-bottom: 0px;
+      margin-top: 10px;
+      margin-left: -25px;
+      margin-bottom: 5px;
     }
     .writerrbrand_table h1 {
       color: #801001;
@@ -567,7 +583,7 @@
   }
     .writerrBrand_one_icons_text p {
       font-size: 14px;
-      margin-left: 196px;
+      margin-left: 229px;
     }
     .writerrBrand_two_content h1 {
       margin-left: 44px;

@@ -21,12 +21,16 @@ const AuthorProject = () => {
     <div class="authorproject">
       <div class="topPart">
         <div class="authorproject_bg">
+         
+         
           <div class="authorproject_main">
             <h1>Fanfiction</h1>
             <h2> Make A Living Writing At Fanfiction</h2>
             <h2>Plateform 2021</h2>
           </div>
         </div>
+
+
         <div class="authorproject_title">
           WHY SHOULD YOU CHOOSE FANFICTION ?
         </div>
@@ -41,8 +45,13 @@ const AuthorProject = () => {
             <p> update a story aon fanfiction </p>
             <p> He or She will be directly guided by </p>
             <p> a specific editor to help him </p>
-            <br />
-            <h3>Read More</h3>
+            <center>
+            <div className="read-1">
+            <h3 >Read More</h3>
+            </div>
+            </center>
+            
+            
           </div>
           <div class="authorproject_grid2">
             <Add />
@@ -53,8 +62,14 @@ const AuthorProject = () => {
             <p> update a story aon fanfiction </p>
             <p> He or She will be directly guided by </p>
             <p> a specific editor to help him </p>
-            <br />
-            <h3>Read More</h3>
+           
+           <center>
+           <div className="read-2">
+            <h3 >Read More</h3>
+            </div>
+           </center>
+            
+            
           </div>
           <div class="authorproject_grid3">
             <Light />
@@ -65,8 +80,13 @@ const AuthorProject = () => {
             <p> update a story aon fanfiction </p>
             <p> He or She will be directly guided </p>
             <p> a specific editor to help him </p>
-            <br />
-            <h3>Read More</h3>
+            
+            <center>
+            <div className="read-3">
+            <h3 >Read More</h3>
+            </div>
+            </center>
+            
           </div>
           <div class="authorproject_grid4">
             <Share />
@@ -77,11 +97,20 @@ const AuthorProject = () => {
             <p> update a story aon fanfiction </p> 
             <p> He or She will be directly guided by </p> 
              <p>   a specific editor to help him </p>
-            <br />
-            <h3>Read More</h3>
+
+
+
+             <center>
+             <div className="read-4">
+            <h3 >Read More</h3>
+            </div>
+             </center>
+            
           </div>
         </div>
-      </div>
+      </div> 
+      
+     
       <div class="authorproject_join">
         <h1> Come And Join Us ! </h1>
       </div>
@@ -133,12 +162,13 @@ const AuthorProject = () => {
           </div>
         </div>
 
-        <div class="authorproject_program_text">
-          <h1 className="h11">   Author Incentive Program</h1>
-        </div>
+
 
 
         <div className="container">
+        <div class="authorproject_program_text">
+          <h1 className="h11">   Author Incentive Program</h1>
+        </div>
             <div className="div-1">
             <p>
               At this instant, Mrs. Mirvan, followed by Lord Orville, walked up
@@ -154,7 +184,7 @@ const AuthorProject = () => {
             </div>
               
             <div className="div-2">
-            <img src={Update} alt="Update" />
+            <img src={Update} alt="Update" className="authorproject_update"/>
             </div>
         </div>
 
@@ -168,6 +198,10 @@ const AuthorProject = () => {
             </center>
           </div>
         </div>
+       
+       
+       
+      
         <div class="authorproject_writing">
           <h1> Writer's Writing Contest</h1>
           <br />
@@ -208,6 +242,9 @@ const AuthorProject = () => {
                 <p> hit book </p>
               </div>
             </div>
+
+
+
             <div class="authorproject_one">
               <div>
                 <h2> 3</h2>

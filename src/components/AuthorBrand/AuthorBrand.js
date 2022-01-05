@@ -4,6 +4,7 @@ import Book from "./../../assets/bookshare.png";
 import { IoMdContacts } from "react-icons/io";
 import { BiMessageSquareDots } from "react-icons/bi";
 
+
 import { GiTargeted } from "react-icons/gi";
 import { SiTrendmicro } from "react-icons/si";
 import { GiCoffeeCup } from "react-icons/gi";
@@ -11,11 +12,12 @@ import { FiSmartphone } from "react-icons/fi";
 
 const AuthorBrand = () => {
   return (
-    <div class="writerrBrand">
-      <div class="topPart">
-        <div class="writerbrand_bg">
+    <>
+    <div className="writerrBrand">
+      <div className="topPart">
+        <div className="writerbrand_bg">
         <div className="container">
-          <div class="writerbrand_main">
+          <div className="writerbrand_main">
             <h1>Fanfiction</h1>
             <h2> Author Brand Benefit Project</h2>
             <br />
@@ -23,9 +25,16 @@ const AuthorBrand = () => {
           </div>
           </div>
         </div>
-        <div class="writerrBrand_one">
+        </div>
+
+
+
+
+
+
         <div className="container">
-          <div class="writerrBrand_one_content">
+        <div className="writerrBrand_one">
+          <div className="writerrBrand_one_content">
             <h1>1</h1>
             <h2>
               Author's Brand Establisment <strong> Apply</strong>
@@ -36,13 +45,14 @@ const AuthorBrand = () => {
               encourage readers to recreate contents around the novels. This would help the facebook group from a good
               community atmosphere, achieve content self-sufficiency and continuously strengthen reader's dependency on novels.</p>
           </div>
-          <div class="writerrBrand_one_icons">
-            <div class="writerrBrand_one_icons_first"><p><span><IoMdContacts /></span>Creating Personal Facebook Fanpage </p> </div>
-            <div class="writerrBrand_one_icons_text">
-              <p> Fanfiction wiill operate exclusive facebook Fanpages and facebook Groups fro top-rated books, wielding our sufficiency and continuously strengthen reader's dependency on
+          <div className="writerrBrand_one_icons">
+            <div className="writerrBrand_one_icons_first"><p><span><IoMdContacts /></span>Creating Personal Facebook Fanpage </p> </div>
+            <div className="writerrBrand_one_icons_text">
+              <p> Fanfiction wiill operate exclusive facebook Fanpages and facebook Groups fro top-rated books, 
+                wielding our sufficiency and continuously strengthen reader's dependency on
                 novels. </p>
             </div>
-            <div class="writerrBrand_one_icons_first">
+            <div className="writerrBrand_one_icons_first">
               <p>
                 <span>
                   <BiMessageSquareDots />
@@ -50,29 +60,70 @@ const AuthorBrand = () => {
                 Creating Personal Facebook Group
               </p>
             </div>
-            <div class="writerrBrand_one_icons_text">
-              <p>Fanfiction wiill operate exclusive facebook Fanpages and facebook Groups fro top-rated books, wielding our sufficiency and continuously strengthen reader's dependency on
+            <div className="writerrBrand_one_icons_text">
+              <p>Fanfiction wiill operate exclusive facebook Fanpages and facebook Groups fro top-rated books,
+                 wielding our sufficiency and continuously strengthen reader's dependency on
                 novels.</p></div>
-            <div class="writerrBrand_one_icons_first"><p> <span><GiTargeted /> </span>Precise Promotion</p> </div>
-            <div class="writerrBrand_one_icons_text">
+            <div className="writerrBrand_one_icons_first"><p> <span><GiTargeted /> </span>Precise Promotion</p> </div>
+            <div className="writerrBrand_one_icons_text">
               <p>
                 Fanfiction wiill operate exclusive facebook Fanpages and
                 facebook Groups fro top-rated books, wielding our sufficiency and continuously strengthen reader's dependency on
                 novels. </p></div>
-            <div class="writerrBrand_one_icons_first">
+            <div className="writerrBrand_one_icons_first">
               <p><span><SiTrendmicro /></span> Maintenance Books' Trend </p> </div>
-            <div class="writerrBrand_one_icons_text">
-              <p> Fanfiction wiill operate exclusive facebook Fanpages and facebook Groups fro top-rated books, wielding our sufficiency and continuously strengthen reader's dependency on
+            <div className="writerrBrand_one_icons_text">
+              <p> Fanfiction wiill operate exclusive facebook Fanpages and facebook Groups fro top-rated books,
+                 wielding our sufficiency and continuously strengthen reader's dependency on
                 novels. </p>
             </div>
           </div>
           </div>
         </div>
-      </div>
-      <div class="middlePart">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      {/* </div>
+      <div className="middlePart">
         <div className="container">
-      <div class="writerrBrand_two">
-        <div class="writerrBrand_two_content">
+      <div className="writerrBrand_two">
+        <div className="writerrBrand_two_content">
           <h1>2</h1>
           <h2>
             Exclusive Exposure Position <strong> Apply</strong>
@@ -84,18 +135,18 @@ const AuthorBrand = () => {
           <p>external and internal exposure positions for book promotion.</p>
         </div>
       </div>
-      <div class="writerrbrand_table">
-        <div class="writerbband_box">
+      <div className="writerrbrand_table">
+        <div className="writerbband_box">
           <h1><FiSmartphone /> Internal</h1>
           <p> Internal exposure positions are mainly for fanfiction potential users or users to be recalled, through spreading high-quality contents to reach such user and attract them to 
           click on the novel pages. </p></div>
-        <div class="writerbband_box">
+        <div className="writerbband_box">
           <h1><GiCoffeeCup />External</h1>
           <p> External exposure positions are mainly for fanfiction potential users or users to be recalled, through spreading 
           high-quality contents to reach such user and attract them to click the book links. </p></div>
       </div>
-      <div class="writerrBrand_three">
-        <div class="writerrBrand_three_content">
+      <div className="writerrBrand_three">
+        <div className="writerrBrand_three_content">
           <h1>3</h1>
           <h2>Book Sharing <strong> Apply</strong></h2>
           <p>In order to encourge readers to spontaneasuly shae the novel's link,Fanfiction will enrich the approaches of book sharing from fanction app to social media
@@ -105,11 +156,11 @@ const AuthorBrand = () => {
       </div>
       </div>
 
-      <div class="bottomPart">
+      <div className="bottomPart">
         <div className="container">
-      <div class="writerrBrand_img">
+      <div className="writerrBrand_img">
         <img src={Book} alt="Book" class="writerrBrand_img_book" />
-        <div class="writerbrand_img_text ">
+        <div className="writerbrand_img_text ">
           <h1> Incentive Book Sharing </h1>
           <p> Incentives such as free coins will encourage reader to share Fanfiction books with their frineds</p>
           <h1>Personalized Book Sharing</h1>
@@ -120,8 +171,9 @@ const AuthorBrand = () => {
       </div>
       </div>
       </div>
-      </div>
+      </div>  */}
     </div>
+    </>
   );
 };
 export default AuthorBrand;
