@@ -1,0 +1,77 @@
+
+
+
+/* *************************************************************************** */
+.container {
+    margin-top: 10%;  
+    background-image: url("./../../assets/frame3.png");
+    width: 500px;
+    height: 645px;
+    background-color:rgba(255,205,214,255);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+   img.Logo {
+          width: 90px;
+          margin-left: 194px;
+          margin-top: 80px;
+  }
+  .Crosic{
+      display: flex;
+  }
+  .icon-2{
+      margin-left: 160px;
+  }
+  .h-3 {
+      margin-left: 100px;
+      font-size: 20px;
+      font-weight: 300;
+      color: black;
+      margin-top: 18px;
+  
+  }
+  input.register_modal_inputs {
+      width: auto;
+      height: 34px;
+      border: 1px #797926 solid;
+      border-radius: 20px;
+      width: 290px;
+      padding: 22px;
+      margin-left: 89px;
+  }
+  .create-account{
+      border-radius: 13px;
+      width: 309px;
+      margin-left: 85px;
+      font-size: 27px;
+      color: white;
+      background-color: #640000;
+      margin-top: 45px;
+  }
+.create-account:hover{
+    background-color: white;
+    color: #640000;
+    transition: all 0.3s ease 0s;
+}
+  .h3-last {
+      padding-right: 38px;
+      font-size: 22px;
+  }
+  h3.h-lasts {
+      font-size: 22px;
+  }
+  span {
+      padding-left: 10px;
+  }
+    
+    .h-1 {
+    color: black;
+    margin-top: 15px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-left: 92px;
+    font-weight: 400;
+}
+  
+

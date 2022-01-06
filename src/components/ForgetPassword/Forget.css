@@ -1,0 +1,94 @@
+
+
+
+/* *************************************************************************** */
+.container {
+    margin-top: 10%;  
+    background-image: url("./../../assets/frame3.png");
+    width: 500px;
+    background-color: rgba(255,205,214,255);
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+   img.Logo {
+          width: 90px;
+          margin-left: 194px;
+          margin-top: 87px;
+  }
+  .icon{
+      display: flex;
+  }
+  .icon-2{
+      margin-top: -1px;
+      margin-left: 160px;
+  }
+  .h-3 {
+      margin-left: 100px;
+      font-size: 20px;
+      font-weight: 300;
+      color: black;
+      margin-top: 18px;
+  
+  }
+  
+  input.register_modal_inputs {
+        font-family: inherit;
+        width: 62%;
+        border: 0;
+        border-bottom: 2px solid black;
+        outline: 0;
+        font-size: 1.3rem;
+        color: white;
+        margin-top: 55px;
+        margin-left: 94px;
+        padding: 7px 0;
+        background: transparent;
+        transition: border-color 0.2s;
+  }
+
+
+  .send{
+      border-radius: 22px;
+      width: 280px;
+      margin-left: 100px;
+      font-size: 27px;
+      color: white;
+      background-color: #640000;
+      margin-top: 45px;
+  }
+.send:hover{
+    background-color: white;
+    color: #640000;
+    transition: all 0.3s ease 0s;
+}
+  .h3-last {
+      padding-right: 38px;
+      font-size: 22px;
+  }
+  h3.h-lasts {
+      font-size: 22px;
+  }
+  span {
+      padding-left: 10px;
+  }
+    
+    .h-1 {
+    color: black;
+    margin-top: 15px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-left: 100px;
+    font-weight: 400;
+}
+  
+.h-last-1{
+    font-weight: 400;
+    color: #640000;
+    margin-top: 3px;
+    margin-left: 154px;
+}
+.h-last-1:hover{
+    color: white;
+}

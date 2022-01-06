@@ -1,0 +1,99 @@
+.container {
+    margin-top: 10%;  
+    background-image: url("./../../assets/frame3.png");
+    width: 500px;
+    background-color: rgba(255,205,214,255);
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  img.Logo {
+    width: 80px;
+    margin-left: 198px;
+    margin-top: 78px;
+}
+.h-1{
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 15px;
+    word-spacing: 2px;
+    margin-left: 103px;
+}
+.para-1{
+    color: #640000;
+    margin-left: 72px;
+}
+.h-3{
+    color: black;
+    font-weight: 400;
+    margin-left: 157px;
+    margin-top: -10px;
+}
+.main-bt{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 30px;
+}
+.btn-1 {
+    background-color: #00308F;
+    color: white;
+    margin-top: 23px;
+    width: 256px;
+    border-radius: 31px;
+    margin-left: 109px;
+    padding: 12px;
+}
+.btn-2{
+    margin-top: 23px;
+    width: 256px;
+    border-radius: 31px;
+    margin-left: 109px;
+    padding: 12px;
+}
+.h1-mail{
+    margin-top: 25px;
+    margin-left: 80px;
+    font-size: 22px;
+    color: black;
+}
+
+.mail-countinue{
+    display: flex;
+    margin-left: -17px;
+}
+.mail-icon{
+    font-size: 22px;
+    color: #640000;
+    margin-left: 15px;
+    margin-top: 22px;
+}
+.h3-last{
+    margin-left: 127px;
+    color: black;
+    font-size: 22px;
+}
+span{
+    color: #640000;
+    padding-left: 7px;
+}
+.para-2{
+    margin-left: 99px;
+    color: black;
+}
+.para-3{
+    margin-left: 126px;
+    color: black;
+    margin-top: -13px;
+}
+.icon{
+    display: flex;
+}
+.icon-2{
+    margin-left: 161px;
+    margin-top: -5px;
+}
+
